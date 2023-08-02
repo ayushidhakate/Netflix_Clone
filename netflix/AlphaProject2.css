@@ -1,0 +1,219 @@
+*{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.bgImg{
+    text-align: center;
+    background-image: url('https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/netflix-india.jpeg?ssl=1');
+    height: 645px;
+    margin: 0px;
+    border-bottom: 5px solid rgb(128, 125, 125);
+}
+.bgText{
+    background-color: rgba(0,0,0,0.7);
+    height: 645px;
+}
+.logo{
+    margin-top: 20px;
+    height: 70px;
+    float: left;
+}
+.right{
+    float: right;
+    margin: 20px 20px 0px 0px;
+
+}
+.select1{
+    background-color: rgba(0,0,0,0.7);
+    color: antiquewhite;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: black;
+}
+.option1{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.subtn{
+    float: right;
+    background-color: red;
+    padding: 5px 20px;
+    border: none;
+    border-radius:5px;
+    margin-left: 30px;
+}
+.sua{
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+h1{
+    color: antiquewhite;
+    font-size: 70px;
+    margin: 5px;
+}
+.bgh3{
+    color: antiquewhite;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 22px;
+}
+.watch{
+    margin: 30px 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: red;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.divMovies{
+    text-align: center;
+    background-color: black;
+    border-bottom: 5px solid rgb(128, 125, 125);
+}
+.divMovies h2{
+    color: antiquewhite;
+    font-size: 35px;
+    padding: 30px;
+}
+.divMovies .imgMovie{
+    height: 300px;
+    margin:10px;
+    padding: 10px;
+    animation: img 5s ;
+    animation-fill-mode:forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+.divMovies .imgMovie2{
+    height: 300px;
+    margin:10px;
+    padding: 10px;
+    animation: img 5s ;
+    animation-delay: 2s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+.divMovies .imgMovie3{
+    height: 300px;
+    margin:10px;
+    padding: 10px;
+    animation: img 5s ;
+    animation-delay: 3s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+.divMovies .imgMovie4{
+    height: 300px;
+    margin:10px;
+    padding: 10px;
+    animation: img 5s ;
+    animation-delay: 4s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+.divMovies .imgMovie5{
+    height: 300px;
+    margin:10px;
+    padding: 10px;    
+    animation: img 5s;
+    animation-delay: 5s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@keyframes img{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0.5px solid aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.divMovies p{
+    margin-top: 50px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 200;
+}
+.email{
+    color: antiquewhite;
+}
+#signup{
+    background: url('netflixbg.png');
+    
+    /* padding-left: 50%; */
+}
+.signup{
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+}
+.innerbg{
+    margin: 0px auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    height: 400px;
+    width: 500px;
+}
+.innerbg h2{
+    color: antiquewhite;
+    padding: 20px;
+    font-size: 40px;
+}
+.form{
+    display: block;
+    margin: 10px auto;
+    color: antiquewhite;
+    border: none;
+}
+.form:focus{
+    box-shadow: 0px 0px 10px red;
+}
+.footer{
+    background-color: black;
+    color: gray;
+    padding: 60px;
+}
+.para1{
+    padding:0px 0px 30px;
+}
+p{
+    line-height: 20px;
+    text-decoration: underline;
+}
+.select2{
+    background-color: rgba(0,0,0,0.7);
+    border: 1px soild grey;
+    color: antiquewhite;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.option2{
+    background-color: black;
+    color: antiquewhite;
+}
+h6{
+    margin: 20px 0px;
+}
